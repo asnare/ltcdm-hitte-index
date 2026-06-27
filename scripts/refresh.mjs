@@ -105,7 +105,9 @@ function sourceForSlot(slot, now, liveAvailable) {
     if (!liveAvailable) {
         return "sample";
     }
-    return slot <= roundSlot(now) ? "open-meteo-past" : "open-meteo-forecast";
+    if (slot < roundSlot(now)) return "open-meteo-past";
+    if (slot.getTime() === roundSlot(now).getTime()) return "open-meteo-estimate";
+    return "open-meteo-forecast";
 }
 
 function sampleConditions(slot, now) {

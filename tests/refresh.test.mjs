@@ -23,12 +23,12 @@ test("each row starts at local midnight and has one local day", () => {
     assert.match(payload.slots[720].time, /T00:00:00\+02:00$/);
 });
 
-test("current slot is sourced from open-meteo-past when liveAvailable", () => {
+test("current slot is sourced from open-meteo-estimate when liveAvailable", () => {
     const payload = buildPayload(new Date("2026-06-27T14:38:00Z"), {
         liveAvailable: true,
     });
 
-    assert.equal(payload.current.source, "open-meteo-past");
+    assert.equal(payload.current.source, "open-meteo-estimate");
 });
 
 test("cell values are sampled at the rounded point in time", () => {
