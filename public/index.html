@@ -14,9 +14,9 @@
     </head>
     <body>
         <main class="page container-xxl">
-            <header class="header">
+            <header class="mb-4">
                 <p class="eyebrow">Bussum</p>
-                <h1>Hitte-index: LTC de Meent</h1>
+                <h1 class="mb-0">Hitte-index: LTC de Meent</h1>
                 <div class="current card" aria-live="polite">
                     <span class="current-label">Nu</span>
                     <strong id="current-value">--,-°C</strong>
@@ -25,7 +25,7 @@
                 </div>
             </header>
 
-            <section class="legend" aria-label="Legenda hitte-index">
+            <section class="legend d-flex flex-wrap align-items-center mb-3" aria-label="Legenda hitte-index">
                 <span><span class="swatch level-green"></span>&lt; 30</span>
                 <span><span class="swatch level-yellow"></span>&lt; 32</span>
                 <span><span class="swatch level-orange"></span>&lt; 34</span>
@@ -35,8 +35,8 @@
 
             <section class="chart-shell" aria-labelledby="heatmap-title">
                 <div class="chart-head">
-                    <h2 id="heatmap-title">Hitte-index per half uur</h2>
-                    <p id="updated-at">Bijgewerkt --</p>
+                    <h2 id="heatmap-title" class="mb-0">Hitte-index per half uur</h2>
+                    <p id="updated-at" class="mb-0">Bijgewerkt --</p>
                 </div>
                 <div id="heatmap" class="heatmap" aria-label="Heatmap hitte-index"></div>
             </section>
@@ -47,7 +47,7 @@
             </aside>
         </main>
 
-        <footer class="footer container-xxl">
+        <footer class="footer container-xxl d-flex flex-wrap">
             <span>Referenties:</span>
             <a href="https://www.wpc.ncep.noaa.gov/html/heatindex_equation.shtml">definitie hitte-index</a>
             <a href="https://open-meteo.com/en/docs">gegevensbron Open-Meteo</a>
