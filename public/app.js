@@ -211,6 +211,7 @@ loadData()
     .then((payload) => {
         renderCurrent(payload);
         renderHeatmap(payload);
+        document.querySelector(".point-cell.now .cell-button")?.click();
     })
     .catch((error) => {
         document.querySelector("#current-meta").textContent = error.message;

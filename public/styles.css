@@ -179,9 +179,9 @@ h2 {
     line-height: 28px;
     text-align: left;
     overflow: hidden;
-    text-overflow: ellipsis;
     white-space: nowrap;
 }
+
 
 .point-cell {
     height: 28px;
@@ -289,7 +289,7 @@ h2 {
 
 @media (max-width: 720px) {
     :root {
-        --date-column: 54px;
+        --date-column: 60px;
         --date-gap: 10px;
     }
 
@@ -308,6 +308,7 @@ h2 {
         letter-spacing: 0;
     }
 
+
     .point-cell,
     .cell-button {
         height: 24px;
@@ -320,7 +321,7 @@ h2 {
 
 @media (max-width: 430px) {
     :root {
-        --date-column: 44px;
+        --date-column: 52px;
         --date-gap: 8px;
     }
 
