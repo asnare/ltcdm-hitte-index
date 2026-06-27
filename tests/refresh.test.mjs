@@ -23,14 +23,12 @@ test("each row starts at local midnight and has one local day", () => {
     assert.match(payload.slots[720].time, /T00:00:00\+02:00$/);
 });
 
-test("current observation comparisons do not overwrite Open-Meteo slots", () => {
+test("current slot is sourced from open-meteo-past when liveAvailable", () => {
     const payload = buildPayload(new Date("2026-06-27T14:38:00Z"), {
         liveAvailable: true,
-        comparisons: [{ source: "buienradar-current", temperatureC: 31.4 }],
     });
 
     assert.equal(payload.current.source, "open-meteo-past");
-    assert.equal(payload.comparisons[0].source, "buienradar-current");
 });
 
 test("cell values are sampled at the rounded point in time", () => {
@@ -52,7 +50,7 @@ test("cell values are sampled at the rounded point in time", () => {
     assert.equal(payload.slots[1].humidityPct, 60);
 });
 
-test("history records forecast runs and forecast changes", () => {
+test("history records only changes and drops duplicates", () => {
     const first = buildPayload(new Date("2026-06-27T12:17:00Z"), {
         liveAvailable: true,
         openMeteoPayload: {
@@ -64,6 +62,11 @@ test("history records forecast runs and forecast changes", () => {
         },
     });
     const firstHistory = buildHistory({}, first);
+
+    // First run: every slot gets exactly one entry
+    for (const entries of Object.values(firstHistory.slots)) {
+        assert.equal(entries.length, 1);
+    }
 
     const second = buildPayload(new Date("2026-06-27T12:47:00Z"), {
         liveAvailable: true,
@@ -77,7 +80,12 @@ test("history records forecast runs and forecast changes", () => {
     });
     const secondHistory = buildHistory(firstHistory, second);
 
-    assert.equal(secondHistory.forecastRuns.length, 2);
-    assert.ok(Object.keys(secondHistory.actuals).length > 0);
-    assert.ok(secondHistory.forecastChanges.length > 0);
+    // Slots with changed values accumulate a second entry
+    const changed = Object.values(secondHistory.slots).filter((e) => e.length === 2);
+    assert.ok(changed.length > 0);
+
+    // Unchanged slots keep one entry
+    const unchanged = Object.values(secondHistory.slots).filter((e) => e.length === 1);
+    assert.ok(unchanged.length > 0);
+
 });

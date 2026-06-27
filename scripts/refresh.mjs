@@ -13,7 +13,6 @@ const DAY_COUNT = 15;
 const SLOTS_PER_DAY = 48;
 const POINT_COUNT = DAY_COUNT * SLOTS_PER_DAY + 1;
 const OPEN_METEO_FORECAST_URL = "https://api.open-meteo.com/v1/forecast";
-const BUIENRADAR_FEED_URL = "https://data.buienradar.nl/2.0/feed/json";
 
 function parseArgs(argv) {
     const args = {
@@ -94,7 +93,8 @@ function roundSlot(date) {
 
 function slotStart(now) {
     const parts = localParts(now);
-    return zonedTimeToDate(parts.year, parts.month, parts.day - 7);
+    const todayMidnight = zonedTimeToDate(parts.year, parts.month, parts.day);
+    return new Date(todayMidnight.getTime() - 7 * 24 * 60 * 60_000);
 }
 
 function addMinutes(date, minutes) {
@@ -143,38 +143,6 @@ async function fetchOpenMeteo() {
     return response.json();
 }
 
-function distanceKm(point) {
-    const latKm = (Number(point.lat) - LOCATION.lat) * 111;
-    const lonKm = (Number(point.lon) - LOCATION.lon) * 68;
-    return Math.hypot(latKm, lonKm);
-}
-
-async function fetchBuienradarObservation() {
-    const response = await fetch(BUIENRADAR_FEED_URL);
-    if (!response.ok) {
-        throw new Error(`Buienradar request failed: ${response.status}`);
-    }
-
-    const payload = await response.json();
-    const stations = payload.actual?.stationmeasurements ?? [];
-    const candidates = stations
-        .filter((station) => station.temperature !== null && station.humidity !== null)
-        .map((station) => ({ ...station, distanceKm: distanceKm(station) }))
-        .sort((left, right) => left.distanceKm - right.distanceKm);
-
-    const station = candidates[0];
-    if (!station) {
-        return null;
-    }
-
-    return {
-        time: parseOpenMeteoLocalTime(station.timestamp),
-        temperatureC: Number(station.temperature),
-        humidityPct: Number(station.humidity),
-        stationName: station.stationname,
-        distanceKm: Number(station.distanceKm.toFixed(1)),
-    };
-}
 
 function parseOpenMeteoLocalTime(value) {
     const [datePart, timePart] = value.split("T");
@@ -220,7 +188,6 @@ export function buildPayload(
     {
         liveAvailable = false,
         openMeteoPayload = null,
-        comparisons = [],
     } = {},
 ) {
     const start = slotStart(now);
@@ -271,7 +238,6 @@ export function buildPayload(
         generatedAt: now.toISOString(),
         location: LOCATION,
         current: current ?? slots[Math.min(slots.length - 1, 7 * SLOTS_PER_DAY)],
-        comparisons,
         slots,
     };
 }
@@ -281,6 +247,7 @@ function sameValue(left, right) {
         left?.temperatureC === right?.temperatureC
         && left?.humidityPct === right?.humidityPct
         && left?.heatIndexC === right?.heatIndexC
+        && left?.source === right?.source
     );
 }
 
@@ -305,52 +272,21 @@ async function readJson(path, fallback) {
 }
 
 export function buildHistory(previousHistory, payload) {
-    const previousForecast = previousHistory.latestForecast ?? {};
-    const actuals = { ...(previousHistory.actuals ?? {}) };
-    const latestForecast = {};
-    const forecasts = [];
-    const forecastChanges = [...(previousHistory.forecastChanges ?? [])];
+    const slots = { ...(previousHistory.slots ?? {}) };
 
     for (const slot of payload.slots) {
-        const value = comparableSlot(slot);
-        if (slot.source === "open-meteo-forecast") {
-            forecasts.push({ time: slot.time, ...value });
-            latestForecast[slot.time] = value;
-
-            const previous = previousForecast[slot.time];
-            if (previous && !sameValue(previous, value)) {
-                forecastChanges.push({
-                    detectedAt: payload.generatedAt,
-                    time: slot.time,
-                    previous,
-                    current: value,
-                    delta: {
-                        temperatureC: value.temperatureC - previous.temperatureC,
-                        humidityPct: value.humidityPct - previous.humidityPct,
-                        heatIndexC: value.heatIndexC - previous.heatIndexC,
-                    },
-                });
-            }
-        } else {
-            actuals[slot.time] = value;
+        const existing = slots[slot.time] ?? [];
+        const candidate = comparableSlot(slot);
+        if (!sameValue(existing[existing.length - 1], candidate)) {
+            slots[slot.time] = [...existing, { detectedAt: payload.generatedAt, ...candidate }];
         }
     }
 
     return {
-        version: 1,
+        version: 2,
         location: payload.location,
         updatedAt: payload.generatedAt,
-        actuals,
-        latestForecast,
-        forecastRuns: [
-            ...(previousHistory.forecastRuns ?? []),
-            {
-                generatedAt: payload.generatedAt,
-                forecasts,
-                comparisons: payload.comparisons,
-            },
-        ],
-        forecastChanges,
+        slots,
     };
 }
 
@@ -358,43 +294,12 @@ async function main() {
     const args = parseArgs(process.argv.slice(2));
     const now = new Date();
     const openMeteoPayload = args.sample ? null : await fetchOpenMeteo();
-    const comparisons = [];
-    let currentObservation = null;
-    if (!args.sample) {
-        try {
-            currentObservation = await fetchBuienradarObservation();
-            comparisons.push({
-                source: "buienradar-current",
-                time: localIso(currentObservation.time),
-                temperatureC: currentObservation.temperatureC,
-                humidityPct: currentObservation.humidityPct,
-                heatIndexC: Number(
-                    heatIndexCelsius(
-                        currentObservation.temperatureC,
-                        currentObservation.humidityPct,
-                    ).toFixed(1),
-                ),
-                stationName: currentObservation.stationName,
-                stationDistanceKm: currentObservation.distanceKm,
-            });
-        } catch (error) {
-            console.warn(error.message);
-        }
-    }
 
     const payload = buildPayload(now, {
         liveAvailable: !args.sample,
         openMeteoPayload,
-        comparisons,
     });
-    const previousHistory = await readJson(args.history, {
-        version: 1,
-        location: LOCATION,
-        actuals: {},
-        latestForecast: {},
-        forecastRuns: [],
-        forecastChanges: [],
-    });
+    const previousHistory = await readJson(args.history, {});
     const history = buildHistory(previousHistory, payload);
 
     await mkdir(dirname(args.output), { recursive: true });
