@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T17:46:27.288Z",
+  "generatedAt": "2026-06-27T17:58:10.257Z",
   "location": {
     "name": "LTC de Meent",
     "lat": 52.27708,
@@ -12,17 +12,6 @@
     "heatIndexC": 26.6,
     "source": "open-meteo-past"
   },
-  "comparisons": [
-    {
-      "source": "buienradar-current",
-      "time": "2026-06-27T19:30:00+02:00",
-      "temperatureC": 29.5,
-      "humidityPct": 50,
-      "heatIndexC": 30.3,
-      "stationName": "Meetstation De Bilt",
-      "stationDistanceKm": 19.8
-    }
-  ],
   "slots": [
     {
       "time": "2026-06-20T00:00:00+02:00",
