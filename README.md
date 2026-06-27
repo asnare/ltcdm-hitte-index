@@ -63,6 +63,9 @@ The refresh step writes:
  - `public/data/heat-index-history.json`: accumulated actual point values,
    forecast runs, and forecast-change records detected between refreshes.
 
+The generated files in `public/data/*.json` are committed so published history
+and current values can be reviewed in Git.
+
 Heat Index Formula
 ------------------
 

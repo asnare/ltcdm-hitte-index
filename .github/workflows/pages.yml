@@ -8,34 +8,48 @@ on:
   schedule:
     - cron: "*/5 * * * *"
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 concurrency:
   group: pages
   cancel-in-progress: false
 
 jobs:
-  publish:
+  capture:
     runs-on: ubuntu-24.04
-    environment:
-      name: public
-      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: write
+    outputs:
+      sha: ${{ steps.commit.outputs.sha }}
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: 24 # LTS
-      - name: Restore published history
-        env:
-          HISTORY_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/data/heat-index-history.json
-        run: |
-          mkdir -p public/data
-          curl --fail --silent --show-error --location "$HISTORY_URL" --output public/data/heat-index-history.json || true
       - name: Refresh heat-index data
         run: node scripts/refresh.mjs --output public/data/heat-index.json --history public/data/heat-index-history.json
+      - name: Commit data
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/
+          git diff --cached --quiet || git commit -m "chore: refresh heat-index data"
+          git push
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  publish:
+    needs: capture
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: public
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          ref: ${{ needs.capture.outputs.sha }}
       - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - name: Archive Pages artifact
         run: |
