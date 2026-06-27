@@ -11,6 +11,8 @@
     --red: #d64545;
     --missing: #d5d9d2;
     --visible-subslots: 68;
+    --date-column: 86px;
+    --date-gap: 14px;
     font-family:
         Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
         "Segoe UI", sans-serif;
@@ -121,67 +123,72 @@ h2 {
     margin-bottom: 8px;
 }
 
-.time-ruler,
-.day-row {
-    display: grid;
-    grid-template-columns: 86px repeat(var(--visible-subslots), minmax(6px, 1fr));
-    gap: 0;
+.heatmap {
+    overflow-x: visible;
 }
 
-.time-ruler {
-    margin-bottom: 5px;
+.heatmap-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.heatmap-table th,
+.heatmap-table td {
+    padding: 0;
+    border: 0;
+}
+
+.heatmap-table thead th {
+    padding-bottom: 5px;
     color: var(--muted);
     font-size: 0.72rem;
+    font-weight: 400;
 }
 
-.time-ruler .tick {
+.date-column {
+    width: var(--date-column);
+}
+
+.gap-column {
+    width: var(--date-gap);
+}
+
+.time-axis {
+    position: relative;
+    height: 0.8rem;
+}
+
+.tick {
+    position: absolute;
+    left: calc((var(--hour) / 17) * 100%);
+    transform: translateX(-50%);
     line-height: 1;
-}
-
-.tick-07 {
-    grid-column: 2;
-}
-
-.tick-12 {
-    grid-column: 22;
-}
-
-.tick-16 {
-    grid-column: 38;
-}
-
-.tick-20 {
-    grid-column: 54;
-}
-
-.tick-24 {
-    grid-column: 69;
-    text-align: right;
-}
-
-.heatmap {
-    overflow-x: auto;
-}
-
-.day-row {
-    min-width: 650px;
-    min-height: 28px;
-}
-
-.day-label {
-    position: sticky;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    padding-right: 10px;
-    background: var(--bg);
-    color: var(--muted);
-    font-size: 0.78rem;
     white-space: nowrap;
 }
 
-.cell {
+.day-label {
+    height: 28px;
+    background: var(--bg);
+    color: var(--muted);
+    font-family:
+        "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.point-cell {
+    height: 28px;
+}
+
+.cell-button {
+    display: block;
     width: 100%;
     height: 28px;
     padding: 0;
@@ -190,19 +197,12 @@ h2 {
     border-radius: 0;
     cursor: pointer;
     outline: 0;
+    background: transparent;
 }
 
-.half-cell {
-    grid-column: span 1;
-}
-
-.full-cell {
-    grid-column: span 2;
-}
-
-.cell:hover,
-.cell:focus-visible,
-.cell.active {
+.point-cell:hover,
+.point-cell:has(.cell-button:focus-visible),
+.point-cell.active {
     position: relative;
     z-index: 1;
     box-shadow:
@@ -210,7 +210,7 @@ h2 {
         0 0 0 2px var(--bg);
 }
 
-.cell.now {
+.point-cell.now {
     position: relative;
     z-index: 1;
     box-shadow: inset 0 0 0 2px var(--ink);
@@ -249,6 +249,28 @@ h2 {
     font-size: 1.05rem;
 }
 
+.details-table {
+    width: max-content;
+    border-collapse: collapse;
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+.details-table th,
+.details-table td {
+    padding: 1px 12px 1px 0;
+    border: 0;
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+}
+
+.details-table td {
+    color: var(--ink);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: "lnum" 1, "tnum" 1;
+}
+
 .footer {
     display: flex;
     flex-wrap: wrap;
@@ -266,17 +288,58 @@ h2 {
 }
 
 @media (max-width: 720px) {
+    :root {
+        --date-column: 54px;
+        --date-gap: 10px;
+    }
+
     .page {
         width: min(100vw - 24px, 1180px);
         padding-top: 20px;
     }
 
-    .time-ruler,
-    .day-row {
-        grid-template-columns: 68px repeat(var(--visible-subslots), minmax(5px, 1fr));
+    .chart-head {
+        display: block;
     }
 
-    .day-row {
-        min-width: 540px;
+    .day-label {
+        font-size: 0.62rem;
+        line-height: 24px;
+        letter-spacing: 0;
+    }
+
+    .point-cell,
+    .cell-button {
+        height: 24px;
+    }
+
+    .heatmap-table thead th {
+        font-size: 0.62rem;
+    }
+}
+
+@media (max-width: 430px) {
+    :root {
+        --date-column: 44px;
+        --date-gap: 8px;
+    }
+
+    .page,
+    .footer {
+        width: min(100vw - 16px, 1180px);
+    }
+
+    .day-label {
+        font-size: 0.54rem;
+        line-height: 22px;
+    }
+
+    .point-cell,
+    .cell-button {
+        height: 22px;
+    }
+
+    .heatmap-table thead th {
+        font-size: 0.52rem;
     }
 }
