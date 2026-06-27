@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-06-27T17:58:10.257Z",
+  "generatedAt": "2026-06-27T18:14:46.279Z",
   "location": {
     "name": "LTC de Meent",
     "lat": 52.27708,
     "lon": 5.14383
   },
   "current": {
-    "time": "2026-06-27T19:30:00+02:00",
-    "temperatureC": 26,
-    "humidityPct": 77,
-    "heatIndexC": 26.6,
+    "time": "2026-06-27T20:00:00+02:00",
+    "temperatureC": 25.3,
+    "humidityPct": 80,
+    "heatIndexC": 26,
     "source": "open-meteo-past"
   },
   "slots": [
@@ -2650,7 +2650,7 @@
       "temperatureC": 25.3,
       "humidityPct": 80,
       "heatIndexC": 26,
-      "source": "open-meteo-forecast"
+      "source": "open-meteo-past"
     },
     {
       "time": "2026-06-27T20:30:00+02:00",

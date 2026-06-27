@@ -5,7 +5,7 @@
     "lat": 52.27708,
     "lon": 5.14383
   },
-  "updatedAt": "2026-06-27T17:58:10.257Z",
+  "updatedAt": "2026-06-27T18:14:46.279Z",
   "slots": {
     "2026-06-20T00:00:00+02:00": [
       {
@@ -3398,6 +3398,13 @@
         "humidityPct": 80,
         "heatIndexC": 26,
         "source": "open-meteo-forecast"
+      },
+      {
+        "detectedAt": "2026-06-27T18:14:46.279Z",
+        "temperatureC": 25.3,
+        "humidityPct": 80,
+        "heatIndexC": 26,
+        "source": "open-meteo-past"
       }
     ],
     "2026-06-27T20:30:00+02:00": [
