@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hitte-index: LTC de Meent</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+            rel="stylesheet"
+        >
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <main class="page container-xxl">
+            <header class="header">
+                <div>
+                    <p class="eyebrow">Bussum</p>
+                    <h1>Hitte-index: LTC de Meent</h1>
+                    <div class="current card" aria-live="polite">
+                        <span class="current-label">Nu</span>
+                        <strong id="current-value">--,-°C</strong>
+                        <span id="current-conditions">--,-°C · --%</span>
+                        <span id="current-meta">Gegevens laden</span>
+                    </div>
+                </div>
+            </header>
+
+            <section class="legend" aria-label="Legenda hitte-index">
+                <span><i class="swatch level-green"></i>&lt; 30</span>
+                <span><i class="swatch level-yellow"></i>&lt; 32</span>
+                <span><i class="swatch level-orange"></i>&lt; 34</span>
+                <span><i class="swatch level-red"></i>&ge; 34</span>
+                <span><i class="swatch level-missing"></i>Geen gegevens</span>
+            </section>
+
+            <section class="chart-shell" aria-labelledby="heatmap-title">
+                <div class="chart-head">
+                    <h2 id="heatmap-title">Hitte-index per half uur</h2>
+                    <p id="updated-at">Bijgewerkt --</p>
+                </div>
+                <div class="time-ruler" aria-hidden="true">
+                    <span class="tick tick-07">07</span>
+                    <span class="tick tick-12">12</span>
+                    <span class="tick tick-16">16</span>
+                    <span class="tick tick-20">20</span>
+                    <span class="tick tick-24">24</span>
+                </div>
+                <div id="heatmap" class="heatmap" aria-label="Heatmap hitte-index"></div>
+            </section>
+
+            <aside id="details" class="details" aria-live="polite">
+                <strong>Selecteer een blok</strong>
+                <span>Temperatuur, luchtvochtigheid en hitte-index verschijnen hier.</span>
+            </aside>
+        </main>
+
+        <footer class="footer container-xxl">
+            <span>Referenties:</span>
+            <a href="https://www.wpc.ncep.noaa.gov/html/heatindex_equation.shtml">definitie hitte-index</a>
+            <a href="https://open-meteo.com/en/docs">gegevensbron Open-Meteo</a>
+            <a href="https://data.buienradar.nl/2.0/feed/json">vergelijking Buienradar</a>
+        </footer>
+        <script src="./app.js" type="module"></script>
+    </body>
+</html>
