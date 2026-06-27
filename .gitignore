@@ -1,0 +1,12 @@
+# Build area.
+/target
+
+# Generated language caches.
+__pycache__/
+
+# IntelliJ project files
+/.idea/
+*.iml
+
+# macOS droppings.
+.DS_Store
