@@ -136,6 +136,9 @@ async function fetchOpenMeteo() {
         timezone: TIME_ZONE,
         past_days: "7",
         forecast_days: "8",
+        models: "knmi_seamless",
+        cell_selection: "nearest",
+        elevation: "nan",
     });
 
     const response = await fetch(url);
