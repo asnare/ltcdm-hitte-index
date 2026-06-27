@@ -131,6 +131,7 @@ h2 {
     width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
+    user-select: none;
 }
 
 .heatmap-table th,
