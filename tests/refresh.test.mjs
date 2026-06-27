@@ -28,7 +28,7 @@ test("current slot is sourced from open-meteo-estimate when liveAvailable", () =
         liveAvailable: true,
     });
 
-    assert.equal(payload.current.source, "open-meteo-estimate");
+    assert.equal(payload.current.source, "open-meteo-model-estimate");
 });
 
 test("cell values are sampled at the rounded point in time", () => {
