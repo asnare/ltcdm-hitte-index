@@ -5,7 +5,7 @@
     "lat": 52.27708,
     "lon": 5.14383
   },
-  "updatedAt": "2026-06-28T20:16:44.986Z",
+  "updatedAt": "2026-06-28T20:45:23.136Z",
   "slots": {
     "2026-06-20T00:00:00+02:00": [
       {
@@ -10236,6 +10236,13 @@
         "humidityPct": 69,
         "heatIndexC": 21,
         "source": "open-meteo-model-estimate"
+      },
+      {
+        "detectedAt": "2026-06-28T20:45:23.136Z",
+        "temperatureC": 21,
+        "humidityPct": 69,
+        "heatIndexC": 21,
+        "source": "open-meteo-model-past"
       }
     ],
     "2026-06-28T22:30:00+02:00": [
@@ -10371,6 +10378,13 @@
         "humidityPct": 71,
         "heatIndexC": 20.4,
         "source": "open-meteo-model-forecast"
+      },
+      {
+        "detectedAt": "2026-06-28T20:45:23.136Z",
+        "temperatureC": 20.5,
+        "humidityPct": 71,
+        "heatIndexC": 20.4,
+        "source": "open-meteo-model-estimate"
       }
     ],
     "2026-06-28T23:00:00+02:00": [
@@ -24400,6 +24414,13 @@
         "humidityPct": 89,
         "heatIndexC": 14.5,
         "source": "open-meteo-model-forecast"
+      },
+      {
+        "detectedAt": "2026-06-28T20:45:23.136Z",
+        "temperatureC": 14.7,
+        "humidityPct": 88,
+        "heatIndexC": 14.5,
+        "source": "open-meteo-model-forecast"
       }
     ],
     "2026-07-01T05:30:00+02:00": [
@@ -24456,6 +24477,13 @@
         "detectedAt": "2026-06-28T19:46:03.650Z",
         "temperatureC": 14.6,
         "humidityPct": 91,
+        "heatIndexC": 14.4,
+        "source": "open-meteo-model-forecast"
+      },
+      {
+        "detectedAt": "2026-06-28T20:45:23.136Z",
+        "temperatureC": 14.6,
+        "humidityPct": 89,
         "heatIndexC": 14.4,
         "source": "open-meteo-model-forecast"
       }
@@ -24516,6 +24544,13 @@
         "humidityPct": 92,
         "heatIndexC": 14.3,
         "source": "open-meteo-model-forecast"
+      },
+      {
+        "detectedAt": "2026-06-28T20:45:23.136Z",
+        "temperatureC": 14.4,
+        "humidityPct": 90,
+        "heatIndexC": 14.2,
+        "source": "open-meteo-model-forecast"
       }
     ],
     "2026-07-01T06:30:00+02:00": [
@@ -24574,6 +24609,13 @@
         "humidityPct": 92,
         "heatIndexC": 15,
         "source": "open-meteo-model-forecast"
+      },
+      {
+        "detectedAt": "2026-06-28T20:45:23.136Z",
+        "temperatureC": 15.1,
+        "humidityPct": 90,
+        "heatIndexC": 15,
+        "source": "open-meteo-model-forecast"
       }
     ],
     "2026-07-01T07:00:00+02:00": [
@@ -24623,6 +24665,13 @@
         "detectedAt": "2026-06-28T19:46:03.650Z",
         "temperatureC": 15.7,
         "humidityPct": 91,
+        "heatIndexC": 15.7,
+        "source": "open-meteo-model-forecast"
+      },
+      {
+        "detectedAt": "2026-06-28T20:45:23.136Z",
+        "temperatureC": 15.7,
+        "humidityPct": 90,
         "heatIndexC": 15.7,
         "source": "open-meteo-model-forecast"
       }
@@ -24676,6 +24725,13 @@
         "humidityPct": 89,
         "heatIndexC": 16.5,
         "source": "open-meteo-model-forecast"
+      },
+      {
+        "detectedAt": "2026-06-28T20:45:23.136Z",
+        "temperatureC": 16.5,
+        "humidityPct": 88,
+        "heatIndexC": 16.6,
+        "source": "open-meteo-model-forecast"
       }
     ],
     "2026-07-01T08:00:00+02:00": [
@@ -24720,6 +24776,13 @@
         "humidityPct": 87,
         "heatIndexC": 17.2,
         "source": "open-meteo-model-forecast"
+      },
+      {
+        "detectedAt": "2026-06-28T20:45:23.136Z",
+        "temperatureC": 17.4,
+        "humidityPct": 86,
+        "heatIndexC": 17.4,
+        "source": "open-meteo-model-forecast"
       }
     ],
     "2026-07-01T08:30:00+02:00": [
@@ -24763,6 +24826,13 @@
         "temperatureC": 17.9,
         "humidityPct": 85,
         "heatIndexC": 18,
+        "source": "open-meteo-model-forecast"
+      },
+      {
+        "detectedAt": "2026-06-28T20:45:23.136Z",
+        "temperatureC": 18,
+        "humidityPct": 85,
+        "heatIndexC": 18.1,
         "source": "open-meteo-model-forecast"
       }
     ],
