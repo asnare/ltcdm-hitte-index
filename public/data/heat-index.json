@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-11T10:47:01.358Z",
+  "generatedAt": "2026-07-11T11:38:03.953Z",
   "location": {
     "name": "LTC de Meent",
     "lat": 52.27708,
     "lon": 5.14383
   },
   "current": {
-    "time": "2026-07-11T12:30:00+02:00",
-    "temperatureC": 23.7,
-    "humidityPct": 65,
-    "heatIndexC": 23.8,
+    "time": "2026-07-11T13:30:00+02:00",
+    "temperatureC": 24.3,
+    "humidityPct": 66,
+    "heatIndexC": 24.4,
     "source": "open-meteo-model-estimate"
   },
   "slots": [
@@ -2545,21 +2545,21 @@
       "temperatureC": 23.7,
       "humidityPct": 65,
       "heatIndexC": 23.8,
-      "source": "open-meteo-model-estimate"
+      "source": "open-meteo-model-past"
     },
     {
       "time": "2026-07-11T13:00:00+02:00",
       "temperatureC": 24.1,
       "humidityPct": 65,
       "heatIndexC": 24.3,
-      "source": "open-meteo-model-forecast"
+      "source": "open-meteo-model-past"
     },
     {
       "time": "2026-07-11T13:30:00+02:00",
       "temperatureC": 24.3,
       "humidityPct": 66,
       "heatIndexC": 24.4,
-      "source": "open-meteo-model-forecast"
+      "source": "open-meteo-model-estimate"
     },
     {
       "time": "2026-07-11T14:00:00+02:00",
@@ -3326,23 +3326,23 @@
     },
     {
       "time": "2026-07-13T20:30:00+02:00",
-      "temperatureC": 22.8,
+      "temperatureC": 22.9,
       "humidityPct": 68,
-      "heatIndexC": 22.9,
+      "heatIndexC": 23,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-13T21:00:00+02:00",
-      "temperatureC": 22.3,
+      "temperatureC": 22.4,
       "humidityPct": 71,
-      "heatIndexC": 22.4,
+      "heatIndexC": 22.5,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-13T21:30:00+02:00",
       "temperatureC": 21.9,
       "humidityPct": 73,
-      "heatIndexC": 22,
+      "heatIndexC": 22.1,
       "source": "open-meteo-model-forecast"
     },
     {
@@ -3361,16 +3361,16 @@
     },
     {
       "time": "2026-07-13T23:00:00+02:00",
-      "temperatureC": 20.8,
+      "temperatureC": 20.7,
       "humidityPct": 79,
-      "heatIndexC": 21,
+      "heatIndexC": 20.9,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-13T23:30:00+02:00",
       "temperatureC": 20.3,
       "humidityPct": 83,
-      "heatIndexC": 20.6,
+      "heatIndexC": 20.5,
       "source": "open-meteo-model-forecast"
     },
     {
