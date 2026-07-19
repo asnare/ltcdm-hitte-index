@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-19T15:13:57.679Z",
+  "generatedAt": "2026-07-19T16:11:42.106Z",
   "location": {
     "name": "LTC de Meent",
     "lat": 52.27708,
     "lon": 5.14383
   },
   "current": {
-    "time": "2026-07-19T17:00:00+02:00",
-    "temperatureC": 19,
-    "humidityPct": 50,
-    "heatIndexC": 18.3,
+    "time": "2026-07-19T18:00:00+02:00",
+    "temperatureC": 18.4,
+    "humidityPct": 54,
+    "heatIndexC": 17.7,
     "source": "open-meteo-model-estimate"
   },
   "slots": [
@@ -2571,232 +2571,232 @@
     {
       "time": "2026-07-19T14:30:00+02:00",
       "temperatureC": 19.9,
-      "humidityPct": 44,
+      "humidityPct": 47,
       "heatIndexC": 19.1,
       "source": "open-meteo-model-past"
     },
     {
       "time": "2026-07-19T15:00:00+02:00",
-      "temperatureC": 20,
-      "humidityPct": 42,
+      "temperatureC": 19.9,
+      "humidityPct": 48,
       "heatIndexC": 19.2,
       "source": "open-meteo-model-past"
     },
     {
       "time": "2026-07-19T15:30:00+02:00",
-      "temperatureC": 19.8,
-      "humidityPct": 44,
+      "temperatureC": 19.7,
+      "humidityPct": 48,
       "heatIndexC": 19,
       "source": "open-meteo-model-past"
     },
     {
       "time": "2026-07-19T16:00:00+02:00",
-      "temperatureC": 19.6,
-      "humidityPct": 45,
+      "temperatureC": 19.5,
+      "humidityPct": 48,
       "heatIndexC": 18.8,
       "source": "open-meteo-model-past"
     },
     {
       "time": "2026-07-19T16:30:00+02:00",
       "temperatureC": 19.3,
-      "humidityPct": 48,
+      "humidityPct": 50,
       "heatIndexC": 18.5,
       "source": "open-meteo-model-past"
     },
     {
       "time": "2026-07-19T17:00:00+02:00",
       "temperatureC": 19,
-      "humidityPct": 50,
+      "humidityPct": 51,
       "heatIndexC": 18.3,
-      "source": "open-meteo-model-estimate"
+      "source": "open-meteo-model-past"
     },
     {
       "time": "2026-07-19T17:30:00+02:00",
       "temperatureC": 18.7,
-      "humidityPct": 52,
+      "humidityPct": 53,
       "heatIndexC": 18,
-      "source": "open-meteo-model-forecast"
+      "source": "open-meteo-model-past"
     },
     {
       "time": "2026-07-19T18:00:00+02:00",
       "temperatureC": 18.4,
-      "humidityPct": 53,
+      "humidityPct": 54,
       "heatIndexC": 17.7,
-      "source": "open-meteo-model-forecast"
+      "source": "open-meteo-model-estimate"
     },
     {
       "time": "2026-07-19T18:30:00+02:00",
       "temperatureC": 18.1,
-      "humidityPct": 53,
-      "heatIndexC": 17.3,
+      "humidityPct": 55,
+      "heatIndexC": 17.4,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-19T19:00:00+02:00",
       "temperatureC": 17.8,
-      "humidityPct": 53,
-      "heatIndexC": 17,
+      "humidityPct": 55,
+      "heatIndexC": 17.1,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-19T19:30:00+02:00",
       "temperatureC": 17.4,
-      "humidityPct": 55,
-      "heatIndexC": 16.6,
+      "humidityPct": 57,
+      "heatIndexC": 16.7,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-19T20:00:00+02:00",
       "temperatureC": 17,
-      "humidityPct": 56,
-      "heatIndexC": 16.2,
+      "humidityPct": 59,
+      "heatIndexC": 16.3,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-19T20:30:00+02:00",
       "temperatureC": 16.6,
-      "humidityPct": 58,
+      "humidityPct": 60,
       "heatIndexC": 15.9,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-19T21:00:00+02:00",
       "temperatureC": 16.3,
-      "humidityPct": 59,
-      "heatIndexC": 15.5,
+      "humidityPct": 61,
+      "heatIndexC": 15.6,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-19T21:30:00+02:00",
-      "temperatureC": 16.2,
-      "humidityPct": 59,
+      "temperatureC": 16.1,
+      "humidityPct": 62,
       "heatIndexC": 15.4,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-19T22:00:00+02:00",
-      "temperatureC": 16.1,
-      "humidityPct": 58,
+      "temperatureC": 16,
+      "humidityPct": 62,
       "heatIndexC": 15.3,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-19T22:30:00+02:00",
-      "temperatureC": 16.1,
-      "humidityPct": 59,
+      "temperatureC": 15.8,
+      "humidityPct": 64,
       "heatIndexC": 15.2,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-19T23:00:00+02:00",
-      "temperatureC": 16,
-      "humidityPct": 59,
-      "heatIndexC": 15.2,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-19T23:30:00+02:00",
-      "temperatureC": 15.9,
-      "humidityPct": 60,
-      "heatIndexC": 15.1,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-20T00:00:00+02:00",
-      "temperatureC": 15.8,
-      "humidityPct": 60,
-      "heatIndexC": 15,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-20T00:30:00+02:00",
-      "temperatureC": 15.9,
-      "humidityPct": 60,
-      "heatIndexC": 15,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-20T01:00:00+02:00",
-      "temperatureC": 15.9,
-      "humidityPct": 59,
-      "heatIndexC": 15.1,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-20T01:30:00+02:00",
-      "temperatureC": 15.9,
-      "humidityPct": 60,
-      "heatIndexC": 15.1,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-20T02:00:00+02:00",
-      "temperatureC": 15.9,
-      "humidityPct": 60,
-      "heatIndexC": 15.1,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-20T02:30:00+02:00",
-      "temperatureC": 15.8,
-      "humidityPct": 63,
-      "heatIndexC": 15.1,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-20T03:00:00+02:00",
       "temperatureC": 15.7,
       "humidityPct": 66,
       "heatIndexC": 15,
       "source": "open-meteo-model-forecast"
     },
     {
-      "time": "2026-07-20T03:30:00+02:00",
-      "temperatureC": 15.6,
+      "time": "2026-07-19T23:30:00+02:00",
+      "temperatureC": 15.3,
       "humidityPct": 66,
+      "heatIndexC": 14.7,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-20T00:00:00+02:00",
+      "temperatureC": 15,
+      "humidityPct": 66,
+      "heatIndexC": 14.3,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-20T00:30:00+02:00",
+      "temperatureC": 15.2,
+      "humidityPct": 64,
+      "heatIndexC": 14.4,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-20T01:00:00+02:00",
+      "temperatureC": 15.4,
+      "humidityPct": 62,
+      "heatIndexC": 14.6,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-20T01:30:00+02:00",
+      "temperatureC": 15.6,
+      "humidityPct": 61,
+      "heatIndexC": 14.8,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-20T02:00:00+02:00",
+      "temperatureC": 15.8,
+      "humidityPct": 59,
+      "heatIndexC": 15,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-20T02:30:00+02:00",
+      "temperatureC": 15.8,
+      "humidityPct": 59,
+      "heatIndexC": 15,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-20T03:00:00+02:00",
+      "temperatureC": 15.8,
+      "humidityPct": 59,
+      "heatIndexC": 15,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-20T03:30:00+02:00",
+      "temperatureC": 15.8,
+      "humidityPct": 59,
       "heatIndexC": 14.9,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T04:00:00+02:00",
-      "temperatureC": 15.4,
-      "humidityPct": 65,
-      "heatIndexC": 14.7,
+      "temperatureC": 15.7,
+      "humidityPct": 59,
+      "heatIndexC": 14.9,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T04:30:00+02:00",
-      "temperatureC": 15.5,
-      "humidityPct": 64,
+      "temperatureC": 15.6,
+      "humidityPct": 61,
       "heatIndexC": 14.8,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T05:00:00+02:00",
-      "temperatureC": 15.6,
+      "temperatureC": 15.5,
       "humidityPct": 63,
-      "heatIndexC": 14.9,
+      "heatIndexC": 14.8,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T05:30:00+02:00",
       "temperatureC": 15.6,
       "humidityPct": 63,
-      "heatIndexC": 14.9,
+      "heatIndexC": 14.8,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T06:00:00+02:00",
-      "temperatureC": 15.7,
+      "temperatureC": 15.6,
       "humidityPct": 63,
-      "heatIndexC": 15,
+      "heatIndexC": 14.9,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T06:30:00+02:00",
-      "temperatureC": 15.7,
+      "temperatureC": 15.6,
       "humidityPct": 63,
-      "heatIndexC": 15,
+      "heatIndexC": 14.9,
       "source": "open-meteo-model-forecast"
     },
     {
@@ -2808,625 +2808,625 @@
     },
     {
       "time": "2026-07-20T07:30:00+02:00",
-      "temperatureC": 15.9,
-      "humidityPct": 61,
-      "heatIndexC": 15.2,
+      "temperatureC": 15.8,
+      "humidityPct": 63,
+      "heatIndexC": 15.1,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T08:00:00+02:00",
-      "temperatureC": 16.2,
-      "humidityPct": 60,
-      "heatIndexC": 15.4,
+      "temperatureC": 16,
+      "humidityPct": 63,
+      "heatIndexC": 15.3,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T08:30:00+02:00",
       "temperatureC": 16.4,
-      "humidityPct": 60,
+      "humidityPct": 62,
       "heatIndexC": 15.6,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T09:00:00+02:00",
-      "temperatureC": 16.6,
-      "humidityPct": 59,
-      "heatIndexC": 15.9,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-20T09:30:00+02:00",
       "temperatureC": 16.7,
       "humidityPct": 60,
       "heatIndexC": 16,
       "source": "open-meteo-model-forecast"
     },
     {
+      "time": "2026-07-20T09:30:00+02:00",
+      "temperatureC": 17.2,
+      "humidityPct": 59,
+      "heatIndexC": 16.5,
+      "source": "open-meteo-model-forecast"
+    },
+    {
       "time": "2026-07-20T10:00:00+02:00",
-      "temperatureC": 16.8,
-      "humidityPct": 61,
-      "heatIndexC": 16.1,
+      "temperatureC": 17.7,
+      "humidityPct": 58,
+      "heatIndexC": 17,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T10:30:00+02:00",
-      "temperatureC": 17.3,
-      "humidityPct": 61,
-      "heatIndexC": 16.7,
+      "temperatureC": 18.1,
+      "humidityPct": 58,
+      "heatIndexC": 17.5,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T11:00:00+02:00",
-      "temperatureC": 17.8,
-      "humidityPct": 60,
-      "heatIndexC": 17.2,
+      "temperatureC": 18.6,
+      "humidityPct": 57,
+      "heatIndexC": 18,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T11:30:00+02:00",
-      "temperatureC": 18.4,
-      "humidityPct": 59,
-      "heatIndexC": 17.8,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-20T12:00:00+02:00",
-      "temperatureC": 18.9,
-      "humidityPct": 58,
+      "temperatureC": 19,
+      "humidityPct": 56,
       "heatIndexC": 18.4,
       "source": "open-meteo-model-forecast"
     },
     {
-      "time": "2026-07-20T12:30:00+02:00",
-      "temperatureC": 19.1,
-      "humidityPct": 58,
-      "heatIndexC": 18.6,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-20T13:00:00+02:00",
-      "temperatureC": 19.3,
-      "humidityPct": 58,
+      "time": "2026-07-20T12:00:00+02:00",
+      "temperatureC": 19.4,
+      "humidityPct": 55,
       "heatIndexC": 18.8,
       "source": "open-meteo-model-forecast"
     },
     {
-      "time": "2026-07-20T13:30:00+02:00",
-      "temperatureC": 19.5,
-      "humidityPct": 58,
-      "heatIndexC": 19,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-20T14:00:00+02:00",
-      "temperatureC": 19.6,
-      "humidityPct": 57,
-      "heatIndexC": 19.1,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-20T14:30:00+02:00",
+      "time": "2026-07-20T12:30:00+02:00",
       "temperatureC": 19.8,
-      "humidityPct": 57,
-      "heatIndexC": 19.3,
+      "humidityPct": 54,
+      "heatIndexC": 19.2,
       "source": "open-meteo-model-forecast"
     },
     {
-      "time": "2026-07-20T15:00:00+02:00",
-      "temperatureC": 20,
-      "humidityPct": 56,
+      "time": "2026-07-20T13:00:00+02:00",
+      "temperatureC": 20.1,
+      "humidityPct": 53,
       "heatIndexC": 19.5,
       "source": "open-meteo-model-forecast"
     },
     {
-      "time": "2026-07-20T15:30:00+02:00",
-      "temperatureC": 20.1,
-      "humidityPct": 55,
-      "heatIndexC": 19.7,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-20T16:00:00+02:00",
-      "temperatureC": 20.3,
-      "humidityPct": 54,
-      "heatIndexC": 19.8,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-20T16:30:00+02:00",
+      "time": "2026-07-20T13:30:00+02:00",
       "temperatureC": 20.4,
-      "humidityPct": 53,
+      "humidityPct": 52,
       "heatIndexC": 19.9,
       "source": "open-meteo-model-forecast"
     },
     {
-      "time": "2026-07-20T17:00:00+02:00",
-      "temperatureC": 20.5,
+      "time": "2026-07-20T14:00:00+02:00",
+      "temperatureC": 20.7,
+      "humidityPct": 51,
+      "heatIndexC": 20.2,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-20T14:30:00+02:00",
+      "temperatureC": 20.9,
+      "humidityPct": 51,
+      "heatIndexC": 20.3,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-20T15:00:00+02:00",
+      "temperatureC": 21,
+      "humidityPct": 50,
+      "heatIndexC": 20.5,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-20T15:30:00+02:00",
+      "temperatureC": 21.1,
+      "humidityPct": 51,
+      "heatIndexC": 20.6,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-20T16:00:00+02:00",
+      "temperatureC": 21.2,
+      "humidityPct": 51,
+      "heatIndexC": 20.7,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-20T16:30:00+02:00",
+      "temperatureC": 21.2,
       "humidityPct": 52,
-      "heatIndexC": 20,
+      "heatIndexC": 20.7,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-20T17:00:00+02:00",
+      "temperatureC": 21.2,
+      "humidityPct": 52,
+      "heatIndexC": 20.7,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T17:30:00+02:00",
-      "temperatureC": 20.4,
-      "humidityPct": 52,
-      "heatIndexC": 19.8,
+      "temperatureC": 20.9,
+      "humidityPct": 54,
+      "heatIndexC": 20.5,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T18:00:00+02:00",
-      "temperatureC": 20.2,
-      "humidityPct": 52,
-      "heatIndexC": 19.6,
+      "temperatureC": 20.7,
+      "humidityPct": 55,
+      "heatIndexC": 20.3,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T18:30:00+02:00",
-      "temperatureC": 19.9,
-      "humidityPct": 53,
-      "heatIndexC": 19.3,
+      "temperatureC": 20.2,
+      "humidityPct": 57,
+      "heatIndexC": 19.8,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T19:00:00+02:00",
-      "temperatureC": 19.6,
-      "humidityPct": 54,
-      "heatIndexC": 19,
+      "temperatureC": 19.7,
+      "humidityPct": 58,
+      "heatIndexC": 19.2,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T19:30:00+02:00",
       "temperatureC": 19.3,
-      "humidityPct": 55,
-      "heatIndexC": 18.7,
+      "humidityPct": 59,
+      "heatIndexC": 18.8,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T20:00:00+02:00",
       "temperatureC": 18.9,
-      "humidityPct": 56,
-      "heatIndexC": 18.3,
+      "humidityPct": 60,
+      "heatIndexC": 18.4,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T20:30:00+02:00",
       "temperatureC": 18.4,
-      "humidityPct": 58,
+      "humidityPct": 61,
       "heatIndexC": 17.9,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T21:00:00+02:00",
       "temperatureC": 18,
-      "humidityPct": 59,
-      "heatIndexC": 17.4,
+      "humidityPct": 62,
+      "heatIndexC": 17.5,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T21:30:00+02:00",
       "temperatureC": 17.5,
-      "humidityPct": 61,
-      "heatIndexC": 16.9,
+      "humidityPct": 65,
+      "heatIndexC": 17,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T22:00:00+02:00",
       "temperatureC": 17,
-      "humidityPct": 63,
-      "heatIndexC": 16.4,
+      "humidityPct": 67,
+      "heatIndexC": 16.5,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T22:30:00+02:00",
-      "temperatureC": 16.5,
-      "humidityPct": 66,
-      "heatIndexC": 15.9,
+      "temperatureC": 16.6,
+      "humidityPct": 69,
+      "heatIndexC": 16.1,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-20T23:00:00+02:00",
-      "temperatureC": 16,
-      "humidityPct": 69,
-      "heatIndexC": 15.5,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-20T23:30:00+02:00",
-      "temperatureC": 15.6,
-      "humidityPct": 73,
-      "heatIndexC": 15.1,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T00:00:00+02:00",
-      "temperatureC": 15.1,
-      "humidityPct": 76,
-      "heatIndexC": 14.7,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T00:30:00+02:00",
-      "temperatureC": 14.8,
-      "humidityPct": 78,
-      "heatIndexC": 14.4,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T01:00:00+02:00",
-      "temperatureC": 14.5,
-      "humidityPct": 79,
-      "heatIndexC": 14.1,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T01:30:00+02:00",
-      "temperatureC": 14.5,
-      "humidityPct": 81,
-      "heatIndexC": 14.1,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T02:00:00+02:00",
-      "temperatureC": 14.5,
-      "humidityPct": 82,
-      "heatIndexC": 14.1,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T02:30:00+02:00",
-      "temperatureC": 14.9,
-      "humidityPct": 81,
-      "heatIndexC": 14.5,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T03:00:00+02:00",
-      "temperatureC": 15.3,
-      "humidityPct": 79,
-      "heatIndexC": 14.9,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T03:30:00+02:00",
-      "temperatureC": 15.4,
-      "humidityPct": 78,
-      "heatIndexC": 15.1,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T04:00:00+02:00",
-      "temperatureC": 15.6,
-      "humidityPct": 76,
-      "heatIndexC": 15.2,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T04:30:00+02:00",
-      "temperatureC": 15.8,
-      "humidityPct": 76,
-      "heatIndexC": 15.4,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T05:00:00+02:00",
-      "temperatureC": 15.9,
-      "humidityPct": 75,
-      "heatIndexC": 15.5,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T05:30:00+02:00",
-      "temperatureC": 16,
-      "humidityPct": 74,
-      "heatIndexC": 15.6,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T06:00:00+02:00",
-      "temperatureC": 16.1,
-      "humidityPct": 73,
+      "temperatureC": 16.2,
+      "humidityPct": 71,
       "heatIndexC": 15.7,
       "source": "open-meteo-model-forecast"
     },
     {
+      "time": "2026-07-20T23:30:00+02:00",
+      "temperatureC": 15.8,
+      "humidityPct": 74,
+      "heatIndexC": 15.4,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T00:00:00+02:00",
+      "temperatureC": 15.4,
+      "humidityPct": 76,
+      "heatIndexC": 15,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T00:30:00+02:00",
+      "temperatureC": 15.4,
+      "humidityPct": 77,
+      "heatIndexC": 14.9,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T01:00:00+02:00",
+      "temperatureC": 15.3,
+      "humidityPct": 77,
+      "heatIndexC": 14.9,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T01:30:00+02:00",
+      "temperatureC": 15.4,
+      "humidityPct": 77,
+      "heatIndexC": 15,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T02:00:00+02:00",
+      "temperatureC": 15.5,
+      "humidityPct": 77,
+      "heatIndexC": 15.1,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T02:30:00+02:00",
+      "temperatureC": 15.6,
+      "humidityPct": 77,
+      "heatIndexC": 15.2,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T03:00:00+02:00",
+      "temperatureC": 15.7,
+      "humidityPct": 76,
+      "heatIndexC": 15.3,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T03:30:00+02:00",
+      "temperatureC": 15.7,
+      "humidityPct": 77,
+      "heatIndexC": 15.3,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T04:00:00+02:00",
+      "temperatureC": 15.7,
+      "humidityPct": 77,
+      "heatIndexC": 15.3,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T04:30:00+02:00",
+      "temperatureC": 15.7,
+      "humidityPct": 77,
+      "heatIndexC": 15.3,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T05:00:00+02:00",
+      "temperatureC": 15.7,
+      "humidityPct": 77,
+      "heatIndexC": 15.3,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T05:30:00+02:00",
+      "temperatureC": 15.7,
+      "humidityPct": 77,
+      "heatIndexC": 15.3,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T06:00:00+02:00",
+      "temperatureC": 15.7,
+      "humidityPct": 77,
+      "heatIndexC": 15.3,
+      "source": "open-meteo-model-forecast"
+    },
+    {
       "time": "2026-07-21T06:30:00+02:00",
-      "temperatureC": 16.2,
-      "humidityPct": 73,
-      "heatIndexC": 15.8,
+      "temperatureC": 15.9,
+      "humidityPct": 77,
+      "heatIndexC": 15.5,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T07:00:00+02:00",
-      "temperatureC": 16.3,
-      "humidityPct": 72,
-      "heatIndexC": 15.9,
+      "temperatureC": 16.1,
+      "humidityPct": 76,
+      "heatIndexC": 15.8,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T07:30:00+02:00",
-      "temperatureC": 16.5,
-      "humidityPct": 72,
+      "temperatureC": 16.4,
+      "humidityPct": 75,
       "heatIndexC": 16,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T08:00:00+02:00",
-      "temperatureC": 16.6,
-      "humidityPct": 72,
-      "heatIndexC": 16.2,
+      "temperatureC": 16.7,
+      "humidityPct": 73,
+      "heatIndexC": 16.3,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T08:30:00+02:00",
-      "temperatureC": 17,
-      "humidityPct": 71,
-      "heatIndexC": 16.6,
+      "temperatureC": 17.1,
+      "humidityPct": 72,
+      "heatIndexC": 16.8,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T09:00:00+02:00",
-      "temperatureC": 17.4,
-      "humidityPct": 69,
-      "heatIndexC": 17,
+      "temperatureC": 17.6,
+      "humidityPct": 70,
+      "heatIndexC": 17.2,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T09:30:00+02:00",
-      "temperatureC": 17.9,
-      "humidityPct": 67,
-      "heatIndexC": 17.4,
+      "temperatureC": 18.1,
+      "humidityPct": 68,
+      "heatIndexC": 17.7,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T10:00:00+02:00",
-      "temperatureC": 18.3,
-      "humidityPct": 65,
-      "heatIndexC": 17.9,
+      "temperatureC": 18.6,
+      "humidityPct": 66,
+      "heatIndexC": 18.2,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T10:30:00+02:00",
-      "temperatureC": 18.7,
-      "humidityPct": 63,
-      "heatIndexC": 18.3,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T11:00:00+02:00",
-      "temperatureC": 19.1,
-      "humidityPct": 60,
+      "temperatureC": 19,
+      "humidityPct": 64,
       "heatIndexC": 18.6,
       "source": "open-meteo-model-forecast"
     },
     {
+      "time": "2026-07-21T11:00:00+02:00",
+      "temperatureC": 19.4,
+      "humidityPct": 61,
+      "heatIndexC": 19,
+      "source": "open-meteo-model-forecast"
+    },
+    {
       "time": "2026-07-21T11:30:00+02:00",
-      "temperatureC": 19.6,
-      "humidityPct": 58,
-      "heatIndexC": 19.1,
+      "temperatureC": 19.8,
+      "humidityPct": 59,
+      "heatIndexC": 19.4,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T12:00:00+02:00",
-      "temperatureC": 20,
-      "humidityPct": 56,
-      "heatIndexC": 19.5,
+      "temperatureC": 20.2,
+      "humidityPct": 57,
+      "heatIndexC": 19.8,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T12:30:00+02:00",
-      "temperatureC": 20.4,
-      "humidityPct": 55,
-      "heatIndexC": 19.9,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T13:00:00+02:00",
-      "temperatureC": 20.8,
-      "humidityPct": 53,
-      "heatIndexC": 20.3,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T13:30:00+02:00",
-      "temperatureC": 21.1,
-      "humidityPct": 52,
-      "heatIndexC": 20.6,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T14:00:00+02:00",
-      "temperatureC": 21.3,
-      "humidityPct": 51,
-      "heatIndexC": 20.8,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T14:30:00+02:00",
-      "temperatureC": 21.3,
-      "humidityPct": 52,
-      "heatIndexC": 20.8,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T15:00:00+02:00",
-      "temperatureC": 21.3,
-      "humidityPct": 52,
-      "heatIndexC": 20.8,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T15:30:00+02:00",
-      "temperatureC": 21.3,
-      "humidityPct": 52,
-      "heatIndexC": 20.8,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T16:00:00+02:00",
-      "temperatureC": 21.3,
-      "humidityPct": 52,
-      "heatIndexC": 20.8,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T16:30:00+02:00",
-      "temperatureC": 21.3,
-      "humidityPct": 53,
-      "heatIndexC": 20.8,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T17:00:00+02:00",
-      "temperatureC": 21.2,
-      "humidityPct": 53,
-      "heatIndexC": 20.8,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T17:30:00+02:00",
-      "temperatureC": 20.9,
-      "humidityPct": 55,
-      "heatIndexC": 20.4,
-      "source": "open-meteo-model-forecast"
-    },
-    {
-      "time": "2026-07-21T18:00:00+02:00",
       "temperatureC": 20.5,
       "humidityPct": 56,
       "heatIndexC": 20.1,
       "source": "open-meteo-model-forecast"
     },
     {
-      "time": "2026-07-21T18:30:00+02:00",
-      "temperatureC": 20.1,
-      "humidityPct": 58,
-      "heatIndexC": 19.6,
+      "time": "2026-07-21T13:00:00+02:00",
+      "temperatureC": 20.9,
+      "humidityPct": 55,
+      "heatIndexC": 20.5,
       "source": "open-meteo-model-forecast"
     },
     {
-      "time": "2026-07-21T19:00:00+02:00",
+      "time": "2026-07-21T13:30:00+02:00",
+      "temperatureC": 21.1,
+      "humidityPct": 54,
+      "heatIndexC": 20.7,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T14:00:00+02:00",
+      "temperatureC": 21.4,
+      "humidityPct": 53,
+      "heatIndexC": 21,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T14:30:00+02:00",
+      "temperatureC": 21.5,
+      "humidityPct": 53,
+      "heatIndexC": 21.1,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T15:00:00+02:00",
+      "temperatureC": 21.7,
+      "humidityPct": 52,
+      "heatIndexC": 21.3,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T15:30:00+02:00",
+      "temperatureC": 21.8,
+      "humidityPct": 52,
+      "heatIndexC": 21.3,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T16:00:00+02:00",
+      "temperatureC": 21.8,
+      "humidityPct": 52,
+      "heatIndexC": 21.4,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T16:30:00+02:00",
+      "temperatureC": 21.2,
+      "humidityPct": 56,
+      "heatIndexC": 20.8,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T17:00:00+02:00",
+      "temperatureC": 20.6,
+      "humidityPct": 59,
+      "heatIndexC": 20.3,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T17:30:00+02:00",
+      "temperatureC": 20.3,
+      "humidityPct": 59,
+      "heatIndexC": 19.9,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T18:00:00+02:00",
+      "temperatureC": 19.9,
+      "humidityPct": 59,
+      "heatIndexC": 19.5,
+      "source": "open-meteo-model-forecast"
+    },
+    {
+      "time": "2026-07-21T18:30:00+02:00",
       "temperatureC": 19.6,
-      "humidityPct": 60,
+      "humidityPct": 62,
       "heatIndexC": 19.2,
       "source": "open-meteo-model-forecast"
     },
     {
+      "time": "2026-07-21T19:00:00+02:00",
+      "temperatureC": 19.3,
+      "humidityPct": 64,
+      "heatIndexC": 19,
+      "source": "open-meteo-model-forecast"
+    },
+    {
       "time": "2026-07-21T19:30:00+02:00",
-      "temperatureC": 19.1,
-      "humidityPct": 62,
-      "heatIndexC": 18.7,
+      "temperatureC": 18.7,
+      "humidityPct": 68,
+      "heatIndexC": 18.4,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T20:00:00+02:00",
-      "temperatureC": 18.6,
-      "humidityPct": 63,
-      "heatIndexC": 18.2,
+      "temperatureC": 18.1,
+      "humidityPct": 72,
+      "heatIndexC": 17.8,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T20:30:00+02:00",
-      "temperatureC": 18.1,
-      "humidityPct": 65,
-      "heatIndexC": 17.7,
+      "temperatureC": 17.7,
+      "humidityPct": 74,
+      "heatIndexC": 17.5,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T21:00:00+02:00",
-      "temperatureC": 17.6,
-      "humidityPct": 67,
-      "heatIndexC": 17.2,
+      "temperatureC": 17.3,
+      "humidityPct": 76,
+      "heatIndexC": 17.1,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T21:30:00+02:00",
-      "temperatureC": 17.1,
-      "humidityPct": 71,
-      "heatIndexC": 16.7,
+      "temperatureC": 17.2,
+      "humidityPct": 77,
+      "heatIndexC": 17,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T22:00:00+02:00",
-      "temperatureC": 16.6,
-      "humidityPct": 74,
-      "heatIndexC": 16.2,
+      "temperatureC": 17.1,
+      "humidityPct": 78,
+      "heatIndexC": 16.9,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T22:30:00+02:00",
-      "temperatureC": 16.3,
-      "humidityPct": 76,
-      "heatIndexC": 15.9,
+      "temperatureC": 17.1,
+      "humidityPct": 79,
+      "heatIndexC": 16.9,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T23:00:00+02:00",
-      "temperatureC": 15.9,
-      "humidityPct": 77,
-      "heatIndexC": 15.6,
+      "temperatureC": 17,
+      "humidityPct": 79,
+      "heatIndexC": 16.8,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-21T23:30:00+02:00",
-      "temperatureC": 16.1,
-      "humidityPct": 78,
-      "heatIndexC": 15.8,
+      "temperatureC": 16.9,
+      "humidityPct": 79,
+      "heatIndexC": 16.8,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-22T00:00:00+02:00",
-      "temperatureC": 16.3,
+      "temperatureC": 16.9,
       "humidityPct": 78,
-      "heatIndexC": 16,
+      "heatIndexC": 16.7,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-22T00:30:00+02:00",
-      "temperatureC": 16.1,
-      "humidityPct": 79,
-      "heatIndexC": 15.9,
+      "temperatureC": 16.7,
+      "humidityPct": 78,
+      "heatIndexC": 16.5,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-22T01:00:00+02:00",
-      "temperatureC": 16,
-      "humidityPct": 80,
-      "heatIndexC": 15.7,
+      "temperatureC": 16.5,
+      "humidityPct": 78,
+      "heatIndexC": 16.2,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-22T01:30:00+02:00",
-      "temperatureC": 15.8,
+      "temperatureC": 16.3,
       "humidityPct": 80,
-      "heatIndexC": 15.6,
+      "heatIndexC": 16,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-22T02:00:00+02:00",
-      "temperatureC": 15.7,
-      "humidityPct": 80,
-      "heatIndexC": 15.4,
+      "temperatureC": 16,
+      "humidityPct": 81,
+      "heatIndexC": 15.8,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-22T02:30:00+02:00",
-      "temperatureC": 15.8,
-      "humidityPct": 80,
-      "heatIndexC": 15.5,
+      "temperatureC": 16.1,
+      "humidityPct": 79,
+      "heatIndexC": 15.8,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-22T03:00:00+02:00",
-      "temperatureC": 15.9,
-      "humidityPct": 79,
-      "heatIndexC": 15.6,
+      "temperatureC": 16.1,
+      "humidityPct": 77,
+      "heatIndexC": 15.8,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-07-22T03:30:00+02:00",
-      "temperatureC": 15.9,
-      "humidityPct": 80,
-      "heatIndexC": 15.6,
+      "temperatureC": 16,
+      "humidityPct": 79,
+      "heatIndexC": 15.7,
       "source": "open-meteo-model-forecast"
     },
     {
