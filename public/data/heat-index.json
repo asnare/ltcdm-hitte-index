@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-17T12:59:11.466Z",
+  "generatedAt": "2026-08-17T13:45:22.296Z",
   "location": {
     "name": "LTC de Meent",
     "lat": 52.27708,
     "lon": 5.14383
   },
   "current": {
-    "time": "2026-08-17T14:30:00+02:00",
-    "temperatureC": 20.4,
-    "humidityPct": 62,
-    "heatIndexC": 20.1,
+    "time": "2026-08-17T15:30:00+02:00",
+    "temperatureC": 20.9,
+    "humidityPct": 59,
+    "heatIndexC": 20.6,
     "source": "open-meteo-model-estimate"
   },
   "slots": [
@@ -2573,21 +2573,21 @@
       "temperatureC": 20.4,
       "humidityPct": 62,
       "heatIndexC": 20.1,
-      "source": "open-meteo-model-estimate"
+      "source": "open-meteo-model-past"
     },
     {
       "time": "2026-08-17T15:00:00+02:00",
       "temperatureC": 20.6,
       "humidityPct": 60,
       "heatIndexC": 20.3,
-      "source": "open-meteo-model-forecast"
+      "source": "open-meteo-model-past"
     },
     {
       "time": "2026-08-17T15:30:00+02:00",
       "temperatureC": 20.9,
       "humidityPct": 59,
       "heatIndexC": 20.6,
-      "source": "open-meteo-model-forecast"
+      "source": "open-meteo-model-estimate"
     },
     {
       "time": "2026-08-17T16:00:00+02:00",
@@ -3355,28 +3355,28 @@
     {
       "time": "2026-08-19T22:30:00+02:00",
       "temperatureC": 16.4,
-      "humidityPct": 96,
+      "humidityPct": 95,
       "heatIndexC": 16.6,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-08-19T23:00:00+02:00",
       "temperatureC": 16,
-      "humidityPct": 97,
+      "humidityPct": 96,
       "heatIndexC": 16.2,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-08-19T23:30:00+02:00",
       "temperatureC": 15.6,
-      "humidityPct": 98,
+      "humidityPct": 97,
       "heatIndexC": 15.7,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-08-20T00:00:00+02:00",
       "temperatureC": 15.1,
-      "humidityPct": 98,
+      "humidityPct": 97,
       "heatIndexC": 15.2,
       "source": "open-meteo-model-forecast"
     },
