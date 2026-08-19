@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-19T19:11:45.921Z",
+  "generatedAt": "2026-08-19T19:39:27.297Z",
   "location": {
     "name": "LTC de Meent",
     "lat": 52.27708,
     "lon": 5.14383
   },
   "current": {
-    "time": "2026-08-19T21:00:00+02:00",
-    "temperatureC": 17.2,
-    "humidityPct": 94,
-    "heatIndexC": 17.4,
+    "time": "2026-08-19T21:30:00+02:00",
+    "temperatureC": 17,
+    "humidityPct": 95,
+    "heatIndexC": 17.2,
     "source": "open-meteo-model-estimate"
   },
   "slots": [
@@ -2627,35 +2627,35 @@
     {
       "time": "2026-08-19T18:30:00+02:00",
       "temperatureC": 18.1,
-      "humidityPct": 91,
-      "heatIndexC": 18.3,
+      "humidityPct": 90,
+      "heatIndexC": 18.2,
       "source": "open-meteo-model-past"
     },
     {
       "time": "2026-08-19T19:00:00+02:00",
       "temperatureC": 18,
-      "humidityPct": 92,
-      "heatIndexC": 18.3,
+      "humidityPct": 89,
+      "heatIndexC": 18.2,
       "source": "open-meteo-model-past"
     },
     {
       "time": "2026-08-19T19:30:00+02:00",
       "temperatureC": 17.8,
-      "humidityPct": 93,
-      "heatIndexC": 18.1,
+      "humidityPct": 90,
+      "heatIndexC": 18,
       "source": "open-meteo-model-past"
     },
     {
       "time": "2026-08-19T20:00:00+02:00",
       "temperatureC": 17.6,
-      "humidityPct": 93,
+      "humidityPct": 91,
       "heatIndexC": 17.8,
       "source": "open-meteo-model-past"
     },
     {
       "time": "2026-08-19T20:30:00+02:00",
       "temperatureC": 17.4,
-      "humidityPct": 94,
+      "humidityPct": 93,
       "heatIndexC": 17.6,
       "source": "open-meteo-model-past"
     },
@@ -2664,14 +2664,14 @@
       "temperatureC": 17.2,
       "humidityPct": 94,
       "heatIndexC": 17.4,
-      "source": "open-meteo-model-estimate"
+      "source": "open-meteo-model-past"
     },
     {
       "time": "2026-08-19T21:30:00+02:00",
       "temperatureC": 17,
       "humidityPct": 95,
       "heatIndexC": 17.2,
-      "source": "open-meteo-model-forecast"
+      "source": "open-meteo-model-estimate"
     },
     {
       "time": "2026-08-19T22:00:00+02:00",
@@ -2704,28 +2704,28 @@
     {
       "time": "2026-08-20T00:00:00+02:00",
       "temperatureC": 15.1,
-      "humidityPct": 96,
+      "humidityPct": 97,
       "heatIndexC": 15.2,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-08-20T00:30:00+02:00",
       "temperatureC": 14.7,
-      "humidityPct": 96,
-      "heatIndexC": 14.7,
+      "humidityPct": 97,
+      "heatIndexC": 14.8,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-08-20T01:00:00+02:00",
       "temperatureC": 14.3,
-      "humidityPct": 96,
+      "humidityPct": 97,
       "heatIndexC": 14.3,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-08-20T01:30:00+02:00",
       "temperatureC": 14.4,
-      "humidityPct": 97,
+      "humidityPct": 98,
       "heatIndexC": 14.5,
       "source": "open-meteo-model-forecast"
     },
@@ -3439,49 +3439,49 @@
     {
       "time": "2026-08-22T04:30:00+02:00",
       "temperatureC": 12.8,
-      "humidityPct": 93,
-      "heatIndexC": 12.5,
+      "humidityPct": 90,
+      "heatIndexC": 12.4,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-08-22T05:00:00+02:00",
       "temperatureC": 13,
-      "humidityPct": 92,
-      "heatIndexC": 12.8,
+      "humidityPct": 86,
+      "heatIndexC": 12.6,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-08-22T05:30:00+02:00",
       "temperatureC": 12.8,
-      "humidityPct": 92,
-      "heatIndexC": 12.6,
+      "humidityPct": 88,
+      "heatIndexC": 12.5,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-08-22T06:00:00+02:00",
       "temperatureC": 12.7,
-      "humidityPct": 92,
-      "heatIndexC": 12.4,
+      "humidityPct": 89,
+      "heatIndexC": 12.3,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-08-22T06:30:00+02:00",
       "temperatureC": 12.6,
-      "humidityPct": 93,
+      "humidityPct": 91,
       "heatIndexC": 12.3,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-08-22T07:00:00+02:00",
       "temperatureC": 12.5,
-      "humidityPct": 94,
-      "heatIndexC": 12.3,
+      "humidityPct": 92,
+      "heatIndexC": 12.2,
       "source": "open-meteo-model-forecast"
     },
     {
       "time": "2026-08-22T07:30:00+02:00",
       "temperatureC": 12.9,
-      "humidityPct": 93,
+      "humidityPct": 92,
       "heatIndexC": 12.7,
       "source": "open-meteo-model-forecast"
     },
