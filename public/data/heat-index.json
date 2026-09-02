@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-02T13:50:26.719Z",
+  "generatedAt": "2026-09-02T17:50:05.793Z",
   "location": {
     "name": "LTC de Meent",
     "lat": 52.27708,
     "lon": 5.14383
   },
   "current": {
-    "time": "2026-09-02T15:30:00+02:00",
-    "temperatureC": 18.8,
-    "humidityPct": 87,
-    "heatIndexC": 18.9,
+    "time": "2026-09-02T19:30:00+02:00",
+    "temperatureC": 17.8,
+    "humidityPct": 85,
+    "heatIndexC": 17.8,
     "source": "open-meteo-model-estimate"
   },
   "slots": [
@@ -2587,63 +2587,63 @@
       "temperatureC": 18.8,
       "humidityPct": 87,
       "heatIndexC": 18.9,
-      "source": "open-meteo-model-estimate"
+      "source": "open-meteo-model-past"
     },
     {
       "time": "2026-09-02T16:00:00+02:00",
       "temperatureC": 19.2,
       "humidityPct": 81,
       "heatIndexC": 19.3,
-      "source": "open-meteo-model-forecast"
+      "source": "open-meteo-model-past"
     },
     {
       "time": "2026-09-02T16:30:00+02:00",
       "temperatureC": 19.3,
       "humidityPct": 81,
       "heatIndexC": 19.3,
-      "source": "open-meteo-model-forecast"
+      "source": "open-meteo-model-past"
     },
     {
       "time": "2026-09-02T17:00:00+02:00",
       "temperatureC": 19.3,
       "humidityPct": 81,
       "heatIndexC": 19.4,
-      "source": "open-meteo-model-forecast"
+      "source": "open-meteo-model-past"
     },
     {
       "time": "2026-09-02T17:30:00+02:00",
       "temperatureC": 19.1,
       "humidityPct": 80,
       "heatIndexC": 19.2,
-      "source": "open-meteo-model-forecast"
+      "source": "open-meteo-model-past"
     },
     {
       "time": "2026-09-02T18:00:00+02:00",
       "temperatureC": 19,
       "humidityPct": 79,
       "heatIndexC": 19,
-      "source": "open-meteo-model-forecast"
+      "source": "open-meteo-model-past"
     },
     {
       "time": "2026-09-02T18:30:00+02:00",
       "temperatureC": 18.6,
       "humidityPct": 80,
       "heatIndexC": 18.6,
-      "source": "open-meteo-model-forecast"
+      "source": "open-meteo-model-past"
     },
     {
       "time": "2026-09-02T19:00:00+02:00",
       "temperatureC": 18.2,
       "humidityPct": 80,
       "heatIndexC": 18.2,
-      "source": "open-meteo-model-forecast"
+      "source": "open-meteo-model-past"
     },
     {
       "time": "2026-09-02T19:30:00+02:00",
       "temperatureC": 17.8,
       "humidityPct": 85,
       "heatIndexC": 17.8,
-      "source": "open-meteo-model-forecast"
+      "source": "open-meteo-model-estimate"
     },
     {
       "time": "2026-09-02T20:00:00+02:00",
